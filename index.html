@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lizards | Maintenance</title>
+    <link rel="shortcut icon" href="assets/images/favicons/favicon.ico">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+    <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+        integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link href="unpkg.com/aos%402.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <style>
+        .figure {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #0c0c0c;
+
+        }
+
+        .centered {
+            /* position: absolute; */
+            /* top: 32%; */
+            text-align: center;
+            color: yellow;
+            font-size: 30px;
+            font-family: sans-serif;
+            background-color: #0c0c0c;
+        }
+
+        .centered1 {
+            /* position: absolute; */
+            /* top: 25%; */
+            text-align: center;
+
+
+        }
+
+        @media screen and (max-width: 1400px) {
+            .centered {
+                /* position: absolute; */
+                /* top: 45%; */
+                text-align: center;
+                color: yellow;
+                font-size: 30px;
+                font-family: sans-serif;
+                background-color: #0c0c0c;
+            }
+
+            .centered1 {
+                /* position: absolute; */
+                /* top: 35%; */
+                text-align: center;
+
+
+            }
+        }
+
+        @media screen and (min-width: 1430px) {
+            .centered {
+                /* position: absolute; */
+                top: 32%;
+                text-align: center;
+                color: yellow;
+                font-size: 30px;
+                font-family: sans-serif;
+                background-color: #0c0c0c;
+            }
+
+            .centered1 {
+                /* position: absolute; */
+                /* top: 25%; */
+                text-align: center;
+
+
+            }
+        }
+
+        @media screen and (min-width: 1400px)and (max-height:486px) {
+            .centered {
+                /* position: absolute; */
+                /* top: 50%; */
+                text-align: center;
+                color: yellow;
+                font-size: 30px;
+                font-family: sans-serif;
+                background-color: #0c0c0c;
+            }
+
+            .centered1 {
+                /* position: absolute; */
+                /* top: 35%; */
+                text-align: center;
+
+
+            }
+        }
+
+        @media screen and (min-width: 1400px)and (max-height:800px) {
+            .centered {
+                /* position: absolute; */
+                /* top: 45%; */
+                text-align: center;
+                color: yellow;
+                font-size: 30px;
+                font-family: sans-serif;
+                background-color: #0c0c0c;
+            }
+
+            .centered1 {
+                /* position: absolute; */
+                /* top: 35%; */
+                text-align: center;
+
+
+            }
+        }
+
+        @media screen and (max-width: 1300px) {
+            .centered {
+                /* position: absolute; */
+                /* top: 35%; */
+                text-align: center;
+                color: yellow;
+                font-size: 30px;
+                font-family: sans-serif;
+                background-color: #0c0c0c;
+            }
+
+            .centered1 {
+                /* position: absolute; */
+                /* top: 25%; */
+                text-align: center;
+
+
+            }
+        }
+
+        /* @media screen and (min-width: 991px)and (max-width: 1199px){
+    .col-lg-8{
+        margin-left: -30px;
+    }
+    
+}
+@media screen and (min-width: 768px)and (max-width: 990px){
+    .col-lg-8{
+        margin-left: -90px;
+    }
+    
+}
+@media screen and (min-width: 358px)and (max-width: 767px){
+    .col-lg-8{
+        margin-left: -90px;
+    }
+    
+} */
+
+        .maincontent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 460px;
+            width: 100%;
+            /* height: 100%; */
+            margin: auto;
+            margin-top: 100px;
+        }
+
+        @media (max-width:600px) {
+            .maincontent {
+                max-width: 350px;
+                width: 100%;
+            }
+        }
+
+        .footer-section {
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            height: 100%;
+        }
+
+        .up2 {
+            margin-top: 120px;
+        }
+
+        .up {
+
+            position: relative;
+            top: -120px;
+        }
+
+        @media (max-width:991px) {
+            .up {
+
+                position: relative;
+                top: -133px;
+            }
+        }
+
+        @media (max-width:768px) {
+            .up {
+
+                position: relative;
+                top: -175px;
+            }
+        }
+
+        @media (max-width:575px) {
+            .up {
+
+                position: relative;
+                top: -180px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Carousel-SECTION -->
+    <!-- Footer-Section -->
+    <div class="footer-section">
+        <div class="container">
+            <div class="figur text-center">
+                <div class="up">
+                    <a href=""><img src="assets/images/footer-logo.png" style="max-width:100%; " height="auto"></a>
+                </div>
+                <div class="centered up mt-2">
+                    Maintenance
+                </div>
+                <div class="row maincontent">
+                    <div class="">
+                        <div class="">
+                            <a href="" class="text-decoration-none">
+                                <figure><img src="assets/images/footer-logo.png" alt="" class="img-fluid"></figure>
+                            </a>
+                            <p class="footer-section-text">No one knows who we are and no one finds out and we come from
+                                a
+                                secret place and no one finds out where it is</p>
+                            <ul class="list-unstyled">
+                                <li class="list-item">
+                                    <a href="https://t.me/lizardschat"><i
+                                            class="fa-brands fa-telegram marginLeft"></i></a>
+                                    <a href="https://t.me/lizardsc2"><i
+                                            class="fa-brands fa-telegram marginLeft"></i></a>
+                                    <a href="https://discord.com/zfYjDp9VZt"><i
+                                            class="fa-brands fa-discord marginLeft"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-6 col-md-4 col-sm-6" style="text-align: center;">
+                        <div class="footer-list signupbox">
+
+                            <div class="icon-list-box1">
+                                <div class="col-inner">
+
+                                </div>
+                                <div class="form-btn">
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bar text-center">
+                <div class="row">
+                    <div class="footer-bar-content w-100">
+                        <p class="text-size-16 mb-0" style="margin-right: 5px;">Lizards copyright © 2022. All Rights
+                            Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/showhide.html"></script>
+    <script src="https://unpkg.com/ityped@0.0.10"></script>
+
+
+</body>
+<script>
+    window.addEventListener('load', function () {
+        document.body.classList.add('loaded');
+    });
+</script>
+
+</html>
